@@ -8,3 +8,15 @@ Elaborado para WBDSLA, por María José Monteagudo Candiani
 - ### Búsqueda de dominios funcionales en proteínas seleccionadas
 
 ## Para éste ejemplo trataremos de alinear y ver interacciones entre dos  proteínas asociadas a producción de ácido láctico relacionadas a la propiedad exoelectrogénica que influye en el sistema inmune. 
+## Con el siguiente código cargamos las bibliotecas necesarias para que todo el código del notebook funcione
+
+- ### En el archivo `credentials.py` almacenaremos nuestras llaves de acceso para la API de NCBI
+- ### Usaremos [pandas](https://pandas.pydata.org/) para el manejo general de datos
+- ### Usaremos [pyCirclize](https://moshi4.github.io/pyCirclize/) para visualizar nuestros datos genómicos
+- ### Usaremos [requests](https://requests.readthedocs.io/en/latest/) para interactuar con las APIs de NCBI, UniProt e InterProScan
+- ### Usaremos [seaborn](https://seaborn.pydata.org/) para visualizar algunas de las propiedades genómicas obtenidas
+- ### Usaremos [subprocess](https://docs.python.org/3/library/subprocess.html) ejecutar comandos fuera del entorno de python
+- ### Usaremos [BioPython](https://biopython.org/) para el manejo de secuencias
+- ### Usaremos [io](https://docs.python.org/3/library/io.html) para conectar las entradas y salidas de los distintos programas
+Usaremos EasyGA para predicción ( genetic algorithm)
+Usaremos el paquete AlphaPulldown para evaluar las interacciones proteína proteína
