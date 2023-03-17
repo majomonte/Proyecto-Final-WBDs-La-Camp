@@ -1,0 +1,25 @@
+En la investigación para realizar mi proyecto me encontré con que se pueden usar algoritmos como genetic algorithm,  y del cual se tiene una paquetería en phyton, la cual podemos instalar de la siguiente manera:
+!pip3 install EasyGA
+Me intereso mucho porque creo que podríamos trabajar con predicción de una mayor cantidad de data de proteínas para entender mejor las interacciones proteicas. 
+Los pasos de este algoritmo son: 
+
+a) población inicial de bits aleatorios
+
+b) enumerar generaciones
+
+c)evaluar todos los candidatos de la población
+
+d) selección de candidatos
+
+e)  comprobar si es mejor
+
+f)seleccionar padres
+
+g) Paso de crossover 
+
+h) se usa un operador matemático de mutación 
+
+i) Creación de una nueva generación 
+
+
+Bibliografía: https://www.proquest.com/openview/6b02abc8d9ab49b60efa6162605ad147/1?pq-origsite=gscholar&cbl=18750&diss=y
